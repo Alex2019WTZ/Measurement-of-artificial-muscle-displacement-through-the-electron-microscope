@@ -1,0 +1,2 @@
+
+hcam.Exit; % Close camera
