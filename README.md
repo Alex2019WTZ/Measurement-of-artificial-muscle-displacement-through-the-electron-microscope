@@ -4,7 +4,7 @@ The final purpose of this program is to analyze contrast values (captured from t
 calculate the amount of displacement of a given actuator.
 
 Theory Behind Contrast Values
-In order to get contrast value from an image, first the MATLAB program obtains a surface plot of light intensity of each pixel (as shown in Figure 11). 
+In order to get contrast value from an image, first the MATLAB program obtains a surface plot of light intensity of each pixel as shown in the figure. 
 Then, it reads this plot as a matrix of RGB values, outputs a grayscale matrix and calls a rangefilt function to output contrast ranges for each pixel in the image. 
 The output of this function will be an image wherein each pixel corresponds to the range of the 3x3 neighbourhood around each pixel in the input image. 
 This range is obtained by examining the 3x3 neighbourhood around each pixel, and computing the maximum value minus the minimum value. 
