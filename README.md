@@ -3,6 +3,7 @@ This program was designed in MATLAB to observe changes in actuators and simultan
 The final purpose of this program is to analyze contrast values (captured from the camera image from the the microscope) in order to 
 calculate the amount of displacement of a given actuator.
 
+
 Theory Behind Contrast Values
 
 In order to get contrast value from an image, first the MATLAB program obtains a surface plot of light intensity of each pixel as shown in the figure. 
@@ -12,6 +13,7 @@ This range is obtained by examining the 3x3 neighbourhood around each pixel, and
 The average of all range values in the image is then taken to obtain a single contrast value
 
 <img width="303" alt="截屏2022-03-06 下午9 28 29" src="https://user-images.githubusercontent.com/89464663/156957514-1db0648b-a809-4d2e-86e5-6fca4cac86ae.png">
+
 
 
 Method of approximating the amount of actuation at current stage
